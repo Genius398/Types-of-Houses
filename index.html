@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>A house, a home</title>
+        <script src="main.js"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+        </style>
+    </head>
+
+    <body>
+        <center>
+            <h1 id="heading_dude" class="okFont" style="font-size:xx-large; font-weight: bolder;">A house, a home</h1>
+        </center>
+
+        <div class="info1">
+            <h3 class="info1text okFont">There are many types houses in the world. Houses provide us shelter from animals, creatures, rain, floods, disasters, etc. They also provide a comfortable space to survive without fear.</h3>
+            <br>
+            <br>
+            <h3 class="info1text okFont">But there are some conditions for a good house. Those are:</h3>
+            <h3 class="info1text okFont">
+                1. Sunlight
+                <br>
+                <br>
+                2. Ventilation
+                <br>
+                <br>
+                3.Sanitation
+            </h3>
+            <h3 class="info1text okFont">If all of the above conditions are agreed to, a house will be a safe, healthy and nice place to live in.</h3>
+        </div>
+        
+        
+        <hr>
+        <hr>
+        
+        
+        <h2 class="okFont">You can use the dropdown to see the reasons for the conditions of a house</h2>
+        <div class="dropdown_div">
+            <select name="condition" id="houses_condition_dropdown" class="option okFont">
+                <option value="sunlight" class="okFont option">Sunlight</option>
+                 
+                <option value="ventilation" class="okFont option">Ventilation</option>
+          
+                <option value="sanitation" class="okFont option">Sanitation</option>
+            </select>  
+            
+            <button id="getConditionButton" onclick="getCondition()">Get Info</button>
+        </div>
+        
+        <br>
+        
+        <div style="text-align: center;">
+            <div class="condition_div">
+                <h3 id="condition_info" class="okFont"></h3>
+            </div>
+        </div>
+        
+        
+        <hr>
+        <hr>
+        
+        
+        <center>
+            <h1 class="okFont" id="okNewFont">Different types of houses</h1>
+        </center>
+        
+        <h2 id="dif" style="text-align: center;" class="okFont">Lets learn about different types of houses</h2>
+        <h2 id="note"style="text-align: center;" class="okFont">NOTE: TO SWITCH BETWEEN THE INFO OF DIFFERENT HOUSES, USE THE DROPDOWN MENU. THEN, CLICK THE BUTTON</h2>
+
+        <div class="types_of_houses">
+            <div class="dropdown_div">
+                <select name="house" id="houses_dropdown" class="option okFont">
+                    <option value="igloo" class="okFont option">Igloo</option>
+                     
+                    <option value="hut" class="okFont option">Hut</option>
+              
+                    <option value="skyscraper" class="okFont option">Skyscraper</option>
+                     
+                    <option value="bungalow" class="okFont option">Bungalow</option>
+              
+                    <option value="mansion" class="okFont option">Mansion</option>
+                    
+                    <option value="stilt" class="okFont option">Stilt House</option>
+                </select>  
+                
+                <button id="getInfoButton" onclick="getInfo()">Get Info</button>
+            </div>
+            <br>
+            <div style="text-align: center;">
+                <div class="info_div">
+                    <img src="" id="house_img">
+                    <h3 id="house_info"></h3>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <hr>
+        <hr>
+        <div class="copy_right_footer">Developed by <a href="https://github.com/Genius398" target="_blank" id="copy_right_footer_link">Genius398</a></div>
+        </div>
+    </body>
+</html>

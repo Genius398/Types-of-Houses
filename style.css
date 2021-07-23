@@ -1,0 +1,67 @@
+#houses_dropdown{
+    font-size: 30px;
+    color: white;
+    background: #88eb7f;
+}
+
+.types_of_houses{
+    text-align: center;
+}
+
+#note{
+    font-weight: bolder;
+    color: red;
+}
+
+#house_info, .okFont{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.option{
+    font-weight: bold;
+}
+
+#okNewFont{
+    font-weight: bolder;
+}
+
+#house_img{
+    width: 450px;
+    height: 400px;
+}
+
+#getInfoButton{
+    font-size: 30px;
+    color: white;
+    background: #88eb7f;
+}
+
+#getConditionButton{
+    font-size: 30px;
+    color: white;
+    background: #88eb7f;
+}
+
+#getInfoButton:hover{
+    filter: brightness(80%);
+}
+
+#getConditionButton:hover{
+    filter: brightness(80%);
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+    font-size: 20px;
+}
+
+#copy_right_footer_link{
+    color: khaki;
+}
