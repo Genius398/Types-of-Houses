@@ -65,3 +65,9 @@
 #copy_right_footer_link{
     color: khaki;
 }
+
+body{
+    background: #ffcfff;
+    color: black;
+    font-weight: bolder;
+}
